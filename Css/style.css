@@ -69,6 +69,68 @@ header ul li {
     justify-content: space-around;
 }
 
+.container {
+    width: 1320px;
+    /* height: 500px; */
+    margin: auto;
+    box-shadow: 0px 0px 10px 4px #ccc;
+    /* padding: 4px; */
+    display: flex;
+    overflow: hidden;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn-container {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+}
+
+/* From Uiverse.io by barisdogansutcu */ 
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+
 .two-images {
     width: 100%;
     margin-top: 20px;
@@ -279,7 +341,7 @@ header ul li {
 .leftdiv {
     width: 300px;
     border: 1px solid grey;
-    
+
 }
 
 .rightdiv {
@@ -387,7 +449,7 @@ hr {
     margin-top: 10px;
 }
 
-.info-right p:nth-child(7){
+.info-right p:nth-child(7) {
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 10px;
@@ -400,18 +462,21 @@ hr {
     align-items: center;
     margin: 20px 0pc;
 }
-.three-tshirt{
+
+.three-tshirt {
     width: 200px;
     height: 80px;
     margin: 10px 0px;
     display: flex;
     justify-content: space-between;
 }
-.three-tshirt img{
+
+.three-tshirt img {
     width: 100%;
     margin: 1%;
 }
-.size-div{
+
+.size-div {
     width: 200px;
     height: 30px;
     align-items: center;
@@ -419,38 +484,44 @@ hr {
     cursor: pointer;
     justify-content: space-between;
 }
-.size-div i{
+
+.size-div i {
     font-size: 10px;
     color: red;
 }
-.multiple-size{
+
+.multiple-size {
     width: 450px;
     margin: 10px 0px;
     display: flex;
     justify-content: space-between;
 }
-.size-div-multiple{
+
+.size-div-multiple {
     margin: 1%;
     width: 70px;
     height: 60px;
     border-radius: 50%;
     display: flex;
-    
+
     justify-content: center;
     align-items: center;
     outline: 1px solid grey;
 }
-.size-div-multiple h5{
+
+.size-div-multiple h5 {
     border: none;
 }
-.buttons-div{
+
+.buttons-div {
     display: flex;
     width: 490px;
     margin-top: 20px;
     height: 50px;
     justify-content: space-between;
 }
-.buttons-div button:nth-child(1){
+
+.buttons-div button:nth-child(1) {
     padding: 0px 70px;
     background-color: #FF3E6C;
     color: white;
@@ -460,10 +531,12 @@ hr {
     display: flex;
     align-items: center;
 }
-.buttons-div button:nth-child(1) i{
+
+.buttons-div button:nth-child(1) i {
     margin-right: 10px;
 }
-.buttons-div button:nth-child(2){
+
+.buttons-div button:nth-child(2) {
     padding: 0px 50px;
     outline: 1px solid #ccc;
     text-transform: uppercase;
@@ -472,35 +545,43 @@ hr {
     align-items: center;
     font-weight: bold;
 }
-.buttons-div button:nth-child(2) i{
+
+.buttons-div button:nth-child(2) i {
     margin-right: 5px;
 }
-.buttons-div button:nth-child(2):hover{
+
+.buttons-div button:nth-child(2):hover {
     border: 1px solid black;
     cursor: pointer;
 }
-.info-right h4{
+
+.info-right h4 {
     /* margin-top: 20px; */
     margin-right: 10px;
     text-transform: uppercase;
     font-size: 15px;
 }
-.info-right input{
+
+.info-right input {
     width: 180px;
     margin: 10px 0px;
     padding: 10px;
 }
-.cliek-button{
-   border: none;
-   color: red;
-   background: transparent;
+
+.cliek-button {
+    border: none;
+    color: red;
+    background: transparent;
 }
-.lastimages{
+
+.lastimages {
     display: flex;
 }
-.lastimages .card .content{
+
+.lastimages .card .content {
     padding: 0px;
 }
+
 .lastimages .card:hover {
     box-shadow: 0px 0px 10px 4px #ccc;
 }
